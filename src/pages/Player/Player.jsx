@@ -20,7 +20,7 @@ const [apiData, setApiData]= useState({
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZTVhYzM1OWJjMmE1NGNkZmQ5OTg1OTg2MGEwYjU1MCIsIm5iZiI6MTc1NDA1MzU1MS44MzMsInN1YiI6IjY4OGNiYmFmMDg1Yzg1NzEzM2I3ZTY3NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.DMtJP10kuFo0dEqezOHWB5cSIN36G8_GMPI_EAH0ldE'
+    Authorization: `Bearer ${import.meta.env.VITE_TMDB_BEARER_TOKEN}`
   }
 };
 
